@@ -1,10 +1,10 @@
 import setuptools
 
 setuptools.setup(
-    name="streamlit-custom-component",
+    name="calendar_custom",
     version="0.0.1",
-    author="",
-    author_email="",
+    author="kimhai",
+    author_email="nvsnguoivosu@gmail.com",
     description="",
     long_description="",
     long_description_content_type="text/plain",
