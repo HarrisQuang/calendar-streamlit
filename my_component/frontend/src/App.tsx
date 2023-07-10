@@ -33,7 +33,7 @@ const App: React.FC = () => {
   useEffect(() => {
     console.log(isOpen, ref.current)
     if(window.innerWidth < 480 && isOpen && ref.current) {
-      console.log("vô tới đây rồi nè")
+      // console.log("vô tới đây rồi nè")
       ant_picker.style["flex-direction" as any] = 'column'
       ant_picker.style.overflow = 'auto'
       ant_picker.style.height = (ref.current.offsetWidth) + 'px'
@@ -44,7 +44,6 @@ const App: React.FC = () => {
     else {
       Streamlit.setFrameHeight()
     }
-    console.log('------------------------')
   })
 
   return (

@@ -2,7 +2,7 @@ import streamlit.components.v1 as components
 import streamlit as st
 
 _my_component = components.declare_component(
-    "my_component",
+    "calendar_custom",
     url="http://localhost:3001"
 )
 st.set_page_config(layout="wide")
